@@ -5,7 +5,7 @@ const Header = styled.header`
   height: 64px;
   border-bottom: 1px solid #000;
 `;
-const HeaderContainer = styled.div`
+const HeaderWrapper = styled.div`
   width: 1280px;
   height: 100%;
   margin: 0 auto;
@@ -17,7 +17,7 @@ const HeaderContainer = styled.div`
 `
 const Main = styled.main`
 `;
-const MainContainer = styled.div`
+const MainWrapper = styled.div`
   width : 1280px;
   height: 100%;
   margin: 0 auto;
@@ -39,7 +39,7 @@ const Footer = styled.footer`
   border-top : 1px solid #000;
   height: 183px;
 `;
-const FooterContainer = styled.div`
+const FooterWrapper = styled.div`
   width: 1280px;
   height: 100%;
   margin: 0 auto;
@@ -60,23 +60,23 @@ function BaseTemplate({header, footer, center,left, right}: BaseTemplateProps) {
     return (
         <>
             <Header>
-                <HeaderContainer>
+                <HeaderWrapper>
                         {header}
-                </HeaderContainer>
+                </HeaderWrapper>
             </Header>
             <Main>
-                <MainContainer>
+                <MainWrapper>
                     <Aside>{left}</Aside>
                     <Section>
                         {center}
                     </Section>
                     <Aside>{right}</Aside>
-                </MainContainer>
+                </MainWrapper>
             </Main>
             <Footer>
-                <FooterContainer>
+                <FooterWrapper>
                     {footer}
-                </FooterContainer>
+                </FooterWrapper>
             </Footer>
         </>
     )
