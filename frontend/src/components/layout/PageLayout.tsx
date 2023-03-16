@@ -46,17 +46,14 @@ const FooterWrapper = styled.div`
   border-left: 1px solid #000;
   border-right: 1px solid #000;
 `
-
 interface BaseTemplateProps {
-    header: JSX.Element,
+    header: ReactNode,
     footer: ReactNode,
     left?: ReactNode,
     right?: ReactNode,
     center: ReactNode
 }
-
-
-function BaseTemplate({header, footer, center,left, right}: BaseTemplateProps) {
+const PageLayout : React.FC<BaseTemplateProps> = ({header, footer, center,left, right}) => {
     return (
         <>
             <Header>
@@ -82,4 +79,4 @@ function BaseTemplate({header, footer, center,left, right}: BaseTemplateProps) {
     )
 }
 
-export default BaseTemplate;
+export default PageLayout;
