@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from "react";
-import axios from "axios";
 import styled from "styled-components";
+import axios from "../../../axios";
 
 const NavigationContainer = styled.div`
   display: flex;
@@ -15,7 +15,7 @@ const Navigation : React.FC = () => {
     const [data, setData] = useState([]);
     useEffect(() => {
         (async() => {
-            const response =  await axios.get("http://localhost:4000/galleries");
+            const response =  await axios.get("/galleries");
             setData(response.data);
         })();
     },[]);
