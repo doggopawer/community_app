@@ -1,6 +1,7 @@
 import React, {useEffect, useState} from "react";
 import styled from "styled-components";
 import axios from "../../../axios";
+import useQuery from "../../../hooks/useQuery";
 
 const NavigationContainer = styled.div`
   display: flex;
@@ -12,18 +13,11 @@ const NavigationItem = styled.div`
   margin-right: 40px;
 `;
 const Navigation : React.FC = () => {
-    const [data, setData] = useState([]);
-    useEffect(() => {
-        (async() => {
-            const response =  await axios.get("/galleries");
-            setData(response.data);
-        })();
-    },[]);
-
+    const [navigationData] = useQuery({url:"/galleries"});
     return (
         <NavigationContainer>
             {
-                data.map(item => <NavigationItem>{item["title"]}</NavigationItem>)
+                navigationData.map(item => <NavigationItem>{item["title"]}</NavigationItem>)
             }
         </NavigationContainer>
     )
