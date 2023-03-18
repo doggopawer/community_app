@@ -1,6 +1,5 @@
-import React, {useEffect, useState} from "react";
+import React from "react";
 import styled from "styled-components";
-import axios from "../../../axios";
 import useQuery from "../../../hooks/useQuery";
 
 const NavigationContainer = styled.div`
@@ -17,7 +16,7 @@ const Navigation : React.FC = () => {
     return (
         <NavigationContainer>
             {
-                navigationData.map(item => <NavigationItem>{item["title"]}</NavigationItem>)
+                navigationData.map(item => <NavigationItem key={item["id"]}>{item["title"]}</NavigationItem>)
             }
         </NavigationContainer>
     )

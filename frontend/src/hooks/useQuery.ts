@@ -12,7 +12,7 @@ const useQuery = ({url}: useQueryParam) => {
             const response =  await axios.get(url);
             setData(response.data);
         })();
-    },[]);
+    },[url]);
 
     return [data];
 }

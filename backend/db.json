@@ -1,13 +1,31 @@
 {
     "galleries" : [
-        {"id":  1, "title": "Q&A"},
-        {"id":  2, "title": "지식"},
-        {"id":  3, "title": "커뮤니티"},
-        {"id":  4, "title": "이벤트"}
+        {"id":  "qna", "title": "Q&A"},
+        {"id":  "knowledge", "title": "지식"},
+        {"id":  "community", "title": "커뮤니티"},
+        {"id":  "announcement", "title": "공지사항"}
     ],
-    "posts": [
-    { "id": 1, "title": "json-server", "author": "fuck" },
-    { "id": 2, "title": "json-server", "author": "fuck" }
+    "writings": [
+    { "id": 1, "title": "질문1", "author": "user1", "gallery": "qna"},
+    { "id": 2, "title": "질문2", "author": "user2", "gallery": "qna" },
+    { "id": 3, "title": "질문3", "author": "user3", "gallery": "qna" },
+    { "id": 4, "title": "질문4", "author": "user4", "gallery": "qna" },
+    { "id": 5, "title": "질문5", "author": "user5", "gallery": "qna" },
+    { "id": 6, "title": "커뮤1", "author": "user6", "gallery": "community" },
+    { "id": 7, "title": "커뮤2", "author": "user7", "gallery": "community" },
+    { "id": 8, "title": "커뮤3", "author": "user8", "gallery": "community" },
+    { "id": 9, "title": "커뮤4", "author": "user9", "gallery": "community" },
+    { "id": 10, "title": "커뮤4", "author": "user10", "gallery": "community" },
+    { "id": 11, "title": "지식1", "author": "user11", "gallery": "knowledge" },
+    { "id": 12, "title": "지식2", "author": "user12", "gallery": "knowledge" },
+    { "id": 13, "title": "지식3", "author": "user13", "gallery": "knowledge" },
+    { "id": 14, "title": "지식4", "author": "user14", "gallery": "knowledge" },
+    { "id": 15, "title": "지식5", "author": "user15", "gallery": "knowledge" },
+    { "id": 16, "title": "공지1", "author": "user16", "gallery": "announcement" },
+    { "id": 17, "title": "공지2", "author": "user17", "gallery": "announcement" },
+    { "id": 18, "title": "공지3", "author": "user18", "gallery": "announcement" },
+    { "id": 19, "title": "공지4", "author": "user19", "gallery": "announcement" },
+    { "id": 20, "title": "공지5", "author": "user20", "gallery": "announcement" }
     ],
     "comments": [
     { "id": 1, "body": "some comment", "postId": 1 }
