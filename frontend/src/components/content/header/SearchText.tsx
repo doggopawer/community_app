@@ -5,7 +5,11 @@ const StyledInput = styled.input`
   box-sizing: border-box;
   width: 235px;
   height: 32px;
-  border: 1px solid #000;
+  padding-left: 20px;
+  border: 1px solid #374151;
+  border-radius: 43px;
+  
+  
 `;
 
 

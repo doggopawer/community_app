@@ -2,16 +2,30 @@ import styled from "styled-components";
 import React from "react";
 
 const Container = styled.div`
-    width: 400px;
-    height: 80px;
-    border-top: 1px solid #000;
+  box-sizing: border-box;
+  width: 400px;
+  height: 80px;
+  padding: 16px 0;
+  border-bottom: 1px solid #e5e7eb;
 `;
 
 const WritingAuthor = styled.div`
-    height: 30%;
+  height: 20px;
+  
+  text-align: left;
+  color: #374151;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.25rem;
 `
 const WritingTitle = styled.div`
-    height: 70%;
+  height: 20px;
+  
+  text-align: left;
+  color: #111827;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.25rem;
 `
 
 
@@ -19,7 +33,6 @@ type WritingProps = {
     id: number;
     title: string;
     author: string;
-
 };
 
 

@@ -31,9 +31,9 @@ const App : React.FC = () => {
                 section={<GalleryList/>}
                 />}
 
-                footer={"footer"}
-                left={"left"}
-                right={"right"}/>
+                footer={""}
+                left={""}
+                right={""}/>
                 </div>
   )
 }

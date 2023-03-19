@@ -13,7 +13,12 @@ const HeaderRight = styled.div`
   display: flex;
 `;
 const HeaderRightLeft = styled.div`
+  width: 303px;
+  height: 35px;
+  
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 `;
 const HeaderRightRight = styled.div`
   display: flex;

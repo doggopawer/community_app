@@ -8,8 +8,15 @@ const NavigationContainer = styled.div`
 `
 const NavigationItem = styled.div`
   height: 32px;
-  border: 1px solid #000;
-  margin-right: 40px;
+  margin-right: 24px;
+  
+  display: flex;
+  align-items: center;
+  
+  
+  font-size: 14px;
+  font-weight: 500;
+  color: #111827;
 `;
 const Navigation : React.FC = () => {
     const [navigationData] = useQuery({url:"/galleries"});
