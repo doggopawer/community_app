@@ -3,6 +3,7 @@ import './App.css';
 import {BrowserRouter, Route, Routes} from "react-router-dom";
 import MainPage from "./components/page/MainPage";
 import GalleryPage from "./components/page/GalleryPage";
+import WritingPage from "./components/page/WritingPage";
 
 const App : React.FC = () => {
   return (
@@ -11,6 +12,7 @@ const App : React.FC = () => {
             <Routes>
                 <Route path="/" element={<MainPage />}></Route>
                 <Route path="/:galleryId" element={<GalleryPage />}></Route>
+                <Route path="/writings/:writingId" element={<WritingPage />}></Route>
             </Routes>
         </BrowserRouter>
 

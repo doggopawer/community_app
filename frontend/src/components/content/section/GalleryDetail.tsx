@@ -5,12 +5,13 @@ import Writing from "./Writing";
 import React from "react";
 
 const Container = styled.div`
-  margin: 36px 0;
+  width: 95%;
+  margin: 36px auto;
+  
 `;
 
 const GalleryTitle = styled.div`
   box-sizing: border-box;
-  width: 95%;
   height: 80px;
   padding : 16px 32px;
   margin: 0 auto;
@@ -26,7 +27,6 @@ const GalleryTitle = styled.div`
 `;
 const GalleryButtonBox = styled.div`
   box-sizing: border-box;
-  width: 95%;
   height: 36px;
   margin: 1.5rem auto;
   
@@ -60,7 +60,6 @@ const WritingBox = styled.div`
 `;
 const GalleryDetailWritingList = styled.div`
   border-top: 1px solid #e5e7eb;
-  width: 95%;
   margin: 0 auto;
 `
 
