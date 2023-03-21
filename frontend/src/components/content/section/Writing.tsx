@@ -3,8 +3,8 @@ import React from "react";
 
 const Container = styled.div`
   box-sizing: border-box;
-  width: 400px;
-  height: 80px;
+  width: 100%;
+  height: 100%;
   padding: 16px 0;
   border-bottom: 1px solid #e5e7eb;
 `;

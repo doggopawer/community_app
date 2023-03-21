@@ -7,24 +7,29 @@ const Container = styled.div`
     
 
 `;
+const WritingBox = styled.div`
+  height: 80px;
+`
 
 type WritingListProps = {
     gallery : string
 };
 
 const WritingList : React.FC<WritingListProps> = ({gallery}) => {
-    const [writingListData] = useQuery({url:`/writings?gallery=${gallery}`});
+    const [writingListData] = useQuery({url:`/writings?galleryId=${gallery}&_start=0&_end=5`});
 
     return (
         <Container>
             {
                 writingListData.map(item =>
-                    <Writing
-                        key={item["id"]}
-                        id={item["id"]}
-                        author={item["author"]}
-                        title={item["title"]}
-                    />)
+                    <WritingBox key={item["id"]}>
+                        <Writing
+                            id={item["id"]}
+                            author={item["author"]}
+                            title={item["title"]}
+                        />
+                    </WritingBox>
+                )
             }
         </Container>
     )

@@ -6,27 +6,242 @@
         {"id":  "announcement", "title": "공지사항"}
     ],
     "writings": [
-    { "id": 1, "title": "질문1", "author": "user1", "gallery": "qna"},
-    { "id": 2, "title": "질문2", "author": "user2", "gallery": "qna" },
-    { "id": 3, "title": "질문3", "author": "user3", "gallery": "qna" },
-    { "id": 4, "title": "질문4", "author": "user4", "gallery": "qna" },
-    { "id": 5, "title": "질문5", "author": "user5", "gallery": "qna" },
-    { "id": 6, "title": "커뮤1", "author": "user6", "gallery": "community" },
-    { "id": 7, "title": "커뮤2", "author": "user7", "gallery": "community" },
-    { "id": 8, "title": "커뮤3", "author": "user8", "gallery": "community" },
-    { "id": 9, "title": "커뮤4", "author": "user9", "gallery": "community" },
-    { "id": 10, "title": "커뮤4", "author": "user10", "gallery": "community" },
-    { "id": 11, "title": "지식1", "author": "user11", "gallery": "knowledge" },
-    { "id": 12, "title": "지식2", "author": "user12", "gallery": "knowledge" },
-    { "id": 13, "title": "지식3", "author": "user13", "gallery": "knowledge" },
-    { "id": 14, "title": "지식4", "author": "user14", "gallery": "knowledge" },
-    { "id": 15, "title": "지식5", "author": "user15", "gallery": "knowledge" },
-    { "id": 16, "title": "공지1", "author": "user16", "gallery": "announcement" },
-    { "id": 17, "title": "공지2", "author": "user17", "gallery": "announcement" },
-    { "id": 18, "title": "공지3", "author": "user18", "gallery": "announcement" },
-    { "id": 19, "title": "공지4", "author": "user19", "gallery": "announcement" },
-    { "id": 20, "title": "공지5", "author": "user20", "gallery": "announcement" }
-    ],
+    { "id": 1, "title": "질문1", "author": "user1", "galleryId": "qna"},
+    { "id": 2, "title": "질문2", "author": "user2", "galleryId": "qna" },
+    { "id": 3, "title": "질문3", "author": "user3", "galleryId": "qna" },
+    { "id": 4, "title": "질문4", "author": "user4", "galleryId": "qna" },
+    { "id": 5, "title": "질문5", "author": "user5", "galleryId": "qna" },
+    { "id": 6, "title": "커뮤1", "author": "user6", "galleryId": "community" },
+    { "id": 7, "title": "커뮤2", "author": "user7", "galleryId": "community" },
+    { "id": 8, "title": "커뮤3", "author": "user8", "galleryId": "community" },
+    { "id": 9, "title": "커뮤4", "author": "user9", "galleryId": "community" },
+    { "id": 10, "title": "커뮤4", "author": "user10", "galleryId": "community" },
+    { "id": 11, "title": "지식1", "author": "user11", "galleryId": "knowledge" },
+    { "id": 12, "title": "지식2", "author": "user12", "galleryId": "knowledge" },
+    { "id": 13, "title": "지식3", "author": "user13", "galleryId": "knowledge" },
+    { "id": 14, "title": "지식4", "author": "user14", "galleryId": "knowledge" },
+    { "id": 15, "title": "지식5", "author": "user15", "galleryId": "knowledge" },
+    { "id": 16, "title": "공지1", "author": "user16", "galleryId": "announcement" },
+    { "id": 17, "title": "공지2", "author": "user17", "galleryId": "announcement" },
+    { "id": 18, "title": "공지3", "author": "user18", "galleryId": "announcement" },
+    { "id": 19, "title": "공지4", "author": "user19", "galleryId": "announcement" },
+    {
+        "id": "641911281af77ceb7cc3ef68",
+        "galleryId": "announcement",
+        "title": "공지5",
+        "author": "유저"
+    },
+    {
+        "id": "64191128d08e12804576ecb0",
+        "galleryId": "announcement",
+        "title": "공지6",
+        "author": "유저"
+    },
+    {
+        "id": "64191128ac4b37bb6fcc5ed3",
+        "galleryId": "announcement",
+        "title": "공지7",
+        "author": "유저"
+    },
+    {
+        "id": "641911281811e4892b3dca96",
+        "galleryId": "announcement",
+        "title": "공지8",
+        "author": "유저"
+    },
+    {
+        "id": "64191128505a3345e6f0ead9",
+        "galleryId": "announcement",
+        "title": "공지9",
+        "author": "유저"
+    },
+    {
+        "id": "641911286b5e4b3543c92f0a",
+        "galleryId": "announcement",
+        "title": "공지10",
+        "author": "유저"
+    },
+    {
+        "id": "64191128caffae0fad3c2a14",
+        "galleryId": "announcement",
+        "title": "공지11",
+        "author": "유저"
+    },
+    {
+        "id": "6419112871874ff483abf915",
+        "galleryId": "announcement",
+        "title": "공지12",
+        "author": "유저"
+    },
+    {
+        "id": "64191128478604f85bb7c6c0",
+        "galleryId": "announcement",
+        "title": "공지13",
+        "author": "유저"
+    },
+    {
+        "id": "64191128a53095a47501dc13",
+        "galleryId": "announcement",
+        "title": "공지14",
+        "author": "유저"
+    },
+    {
+        "id": "641911287bfb0cd6bf681a3e",
+        "galleryId": "announcement",
+        "title": "공지15",
+        "author": "유저"
+    },
+    {
+        "id": "64191128bc2986b04882e9c8",
+        "galleryId": "announcement",
+        "title": "공지16",
+        "author": "유저"
+    },
+    {
+        "id": "64191128ed796402376b4bc4",
+        "galleryId": "announcement",
+        "title": "공지17",
+        "author": "유저"
+    },
+    {
+        "id": "6419112862edf9a43099c05d",
+        "galleryId": "announcement",
+        "title": "공지18",
+        "author": "유저"
+    },
+    {
+        "id": "641911283883bfffe08e64e4",
+        "galleryId": "announcement",
+        "title": "공지19",
+        "author": "유저"
+    },
+    {
+        "id": "641911281dd36843aa245c7e",
+        "galleryId": "announcement",
+        "title": "공지20",
+        "author": "유저"
+    },
+    {
+        "id": "641911284ea394e2fa83d264",
+        "galleryId": "announcement",
+        "title": "글",
+        "author": "유저"
+    },
+    {
+        "id": "6419112883e462ca79ef81dc",
+        "galleryId": "announcement",
+        "title": "글",
+        "author": "유저"
+    },
+    {
+        "id": "641911284be5de7a3fe1852c",
+        "galleryId": "announcement",
+        "title": "글",
+        "author": "유저"
+    },
+    {
+        "id": "64191128ea45645488dd77c4",
+        "galleryId": "announcement",
+        "title": "글",
+        "author": "유저"
+    },
+    {
+        "id": "64191128966bd2978a822544",
+        "galleryId": "announcement",
+        "title": "글",
+        "author": "유저"
+    },
+    {
+        "id": "641911285ff438f576ca1dfb",
+        "galleryId": "announcement",
+        "title": "글",
+        "author": "유저"
+    },
+    {
+        "id": "64191128cfb6ff20adba3678",
+        "galleryId": "announcement",
+        "title": "글",
+        "author": "유저"
+    },
+    {
+        "id": "64191128575265fa68c7e216",
+        "galleryId": "announcement",
+        "title": "글",
+        "author": "유저"
+    },
+    {
+        "id": "6419112801cd6497046d3909",
+        "galleryId": "announcement",
+        "title": "글",
+        "author": "유저"
+    },
+    {
+        "id": "64191128f40ad30de0e0747f",
+        "galleryId": "announcement",
+        "title": "글",
+        "author": "유저"
+    },
+    {
+        "id": "64191128547e513aec21853b",
+        "galleryId": "announcement",
+        "title": "글",
+        "author": "유저"
+    },
+    {
+        "id": "64191128f9ec5ae6c9265029",
+        "galleryId": "announcement",
+        "title": "글",
+        "author": "유저"
+    },
+    {
+        "id": "6419112800c9cddbb38146a1",
+        "galleryId": "announcement",
+        "title": "글",
+        "author": "유저"
+    },
+    {
+        "id": "641911283b74b284011d6f3f",
+        "galleryId": "announcement",
+        "title": "글",
+        "author": "유저"
+    },
+    {
+        "id": "6419112847c3d143c44cb22b",
+        "galleryId": "announcement",
+        "title": "글",
+        "author": "유저"
+    },
+    {
+        "id": "641911284c8c0d5ee67eea37",
+        "galleryId": "announcement",
+        "title": "글",
+        "author": "유저"
+    },
+    {
+        "id": "64191128502d19799043d5e1",
+        "galleryId": "announcement",
+        "title": "글",
+        "author": "유저"
+    },
+    {
+        "id": "64191128539a6c98ad6d5492",
+        "galleryId": "announcement",
+        "title": "글",
+        "author": "유저"
+    },
+    {
+        "id": "641911281a43c72742b6b437",
+        "galleryId": "announcement",
+        "title": "글3",
+        "author": "유저1"
+    },
+    {
+        "id": "64191128f97c950f7f4bfabb",
+        "galleryId": "announcement",
+        "title": "글3",
+        "author": "유저1"
+    }
+],
     "comments": [
     { "id": 1, "body": "some comment", "postId": 1 }
 ],

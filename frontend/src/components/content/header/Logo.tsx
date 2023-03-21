@@ -1,6 +1,7 @@
 import styled from "styled-components";
+import {Link} from "react-router-dom";
 
-const StyledDiv = styled.div`
+const StyledLink = styled(Link)`
   width: 115px;
   height: 32px;
   
@@ -12,15 +13,17 @@ const StyledDiv = styled.div`
   font-weight: bold;
   
   transform: scaleX(1.1);
-  
+
+  text-decoration: none;
+  &:visited { color: black;}
 `
 
 const Logo = () => {
 
     return (
-        <StyledDiv>
+        <StyledLink to={"/"}>
             ☀LOGO
-        </StyledDiv>
+        </StyledLink>
     )
 }
 export default Logo;
