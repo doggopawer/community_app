@@ -1,11 +1,12 @@
 import styled from "styled-components";
 import React from "react";
 import WritingList from "./WritingList";
+import {Link} from "react-router-dom";
 
 const Container = styled.div`
     margin : 32px 0;
 `;
-const GalleryTitle = styled.div`
+const GalleryTitle = styled(Link)`
     box-sizing: border-box;
     width : 400px;
     height: 64px;
@@ -20,6 +21,9 @@ const GalleryTitle = styled.div`
     color: #111827;
     font-size: 18px;
     font-weight: 600;
+
+    text-decoration: none;
+    &:visited { color: black;}
 `;
 
 type titleProps = {
@@ -31,7 +35,7 @@ type titleProps = {
 const Gallery : React.FC<titleProps> = ({id,title}) => {
     return (
         <Container>
-            <GalleryTitle>
+            <GalleryTitle to={`/${id}`}>
                 {title}
             </GalleryTitle>
             <WritingList  gallery={id}/>
